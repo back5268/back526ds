@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face {
+    font-family: DS-DIGIT;
+    src: url(font/DS-DIGIT.TTF);
+}
+
+html {
+    background-color: #F0F8FF;
+    color: #F0F8FF;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 800px;
+    width: 1280px;
+    background-color: #1F1F1F;
+    margin: 12px auto;
+    border-radius: 16px;
+}
+
+.side_bar {
+    height: 800px;
+    width: 256px;
+    background-color: #282828;
+    border-radius: 16px 0 0 16px;
+}
+
+.ico {width: 36px; height: 38px;background-repeat: no-repeat;}
+.ico-setting {background-image: url(Assets/settings-free-icon-font.png);}
+.ico-noti {background-image: url(Assets/bell-free-icon-font.png);}
+.ico-finan {background-image: url(Assets/usd-square-free-icon-font.png);}
+.ico-book {background-image: url(Assets/book-free-icon-font.png);}
+.ico-person {background-image: url(Assets/user-free-icon-font.png);}
+.ico-note {background-image: url(Assets/edit-free-icon-font.png);}
+.ico-bin {background-image: url(Assets/trash-free-icon-font.png);}
+.ico-find {background-image: url(Assets/search-free-icon-font.png);}
+
+.goals-day {
+    height: 304px;
+    width: 208px;
+    background-color: #1F1F1F;
+    border-radius: 8px;
+    margin: 16px 0 16px 24px;
+}
+
+.check-box {height: 16px; width: 16px; border: 1px solid #F0F8FF; border-radius: 4px;}
+
+.header {
+    height: 320px;
+    width: 960px;
+    border-radius: 16px;
+    margin: 32px;
+    border: 1px solid #F0F8FF;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 280px;
+    width: 920px;
+    border-radius: 16px;
+    margin: 20px;
+}
+
+.calendar {
+    height: 384px;
+    width: 544px;
+    background-color: #282828;
+    border-radius: 8px;
+    margin: 0 0 32px 32px;
+}
+
+.days {margin: 0 0 0 44px; color: #F0F8FF; text-align: center;}
+.spa-proj {height: 80px; width: 458px; background-color: #1F1F1F; border-radius: 8px;}
+
+.other {
+    height: 384px;
+    width: 384px;
+    background-color: #282828;
+    border-radius: 8px;
+    margin: 0 32px 32px 32px;
+}
+
+.border {height: 16px; width: 224px; border-radius: 4px; border: 1px solid #F0F8FF;}
